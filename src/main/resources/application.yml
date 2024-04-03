@@ -1,0 +1,30 @@
+server:
+  port: 8200
+
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: notifications.confirmation@gmail.com
+    password: xroceazuyizupjeu
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+
+rabbitmq:
+  queue:
+    name: meterQueue
+  exchange:
+    name: meterTopicExchange
+  routing:
+    key: meterRoutingKey
