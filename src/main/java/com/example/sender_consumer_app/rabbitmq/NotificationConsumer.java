@@ -1,8 +1,8 @@
-package com.example.senderconsumerapp.rabbitmq;
+package com.example.sender_consumer_app.rabbitmq;
 
-import com.example.senderconsumerapp.dto.NotificationReadDto;
-import com.example.senderconsumerapp.sender.NotificationMailSender;
-import com.example.senderconsumerapp.util.GsonFactory;
+import com.example.sender_consumer_app.dto.notification.NotificationReadDto;
+import com.example.sender_consumer_app.sender.NotificationMailSender;
+import com.example.sender_consumer_app.util.GsonFactory;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

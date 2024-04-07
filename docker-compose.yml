@@ -1,5 +1,11 @@
 version: "3.9"
 services:
+  redis:
+    image: redis:7.2.3-alpine
+    ports:
+      - "6379:6379"
+    networks:
+      - meterdataapplication_mynetwork
   sender-service:
     build:
       context: .
@@ -13,6 +19,8 @@ services:
       RABBITMQ_PASSWORD: guest
     networks:
       - meterdataapplication_mynetwork
+    depends_on:
+      - redis
     command: [ "sh", "-c", "sleep 10 && java -jar /app.jar" ]
 
 networks:

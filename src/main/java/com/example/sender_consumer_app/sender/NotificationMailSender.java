@@ -1,7 +1,7 @@
-package com.example.senderconsumerapp.sender;
+package com.example.sender_consumer_app.sender;
 
-import com.example.senderconsumerapp.dto.NotificationReadDto;
-import com.example.senderconsumerapp.util.MessageTemplateFactory;
+import com.example.sender_consumer_app.dto.notification.NotificationReadDto;
+import com.example.sender_consumer_app.util.MessageTemplateFactory;
 import jakarta.mail.internet.MimeMessage;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

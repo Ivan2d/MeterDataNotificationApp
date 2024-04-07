@@ -1,4 +1,4 @@
-package com.example.senderconsumerapp.dto;
+package com.example.sender_consumer_app.dto.notification;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;

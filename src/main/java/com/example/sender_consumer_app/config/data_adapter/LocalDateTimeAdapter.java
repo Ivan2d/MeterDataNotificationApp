@@ -1,4 +1,4 @@
-package com.example.senderconsumerapp.data_adapter;
+package com.example.sender_consumer_app.config.data_adapter;
 
 import com.google.gson.*;
 

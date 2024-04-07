@@ -1,6 +1,6 @@
-package com.example.senderconsumerapp.util;
+package com.example.sender_consumer_app.util;
 
-import com.example.senderconsumerapp.data_adapter.LocalDateTimeAdapter;
+import com.example.sender_consumer_app.config.data_adapter.LocalDateTimeAdapter;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

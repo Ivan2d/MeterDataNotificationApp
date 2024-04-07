@@ -1,4 +1,4 @@
-package com.example.senderconsumerapp;
+package com.example.sender_consumer_app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

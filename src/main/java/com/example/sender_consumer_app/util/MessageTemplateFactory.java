@@ -1,6 +1,6 @@
-package com.example.senderconsumerapp.util;
+package com.example.sender_consumer_app.util;
 
-import com.example.senderconsumerapp.dto.NotificationReadDto;
+import com.example.sender_consumer_app.dto.notification.NotificationReadDto;
 import org.springframework.stereotype.Component;
 
 @Component

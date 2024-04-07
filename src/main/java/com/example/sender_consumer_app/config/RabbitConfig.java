@@ -1,4 +1,4 @@
-package com.example.senderconsumerapp.config;
+package com.example.sender_consumer_app.config;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
